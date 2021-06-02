@@ -2,7 +2,7 @@
 
 ## Description
 Code for the Paper Constructing Global Coherence Representations:Identifying Interpretability and Coherences of Transformer Attention in Time Series Data. 
-It is about creating coherence matrices which represent the attention from each symbol to each other symbol to enhence the understanding of the global class representation. It can be used as classification model while providing a nice visualisation and boost to the interpretability of the global classes <br>
+It is about creating coherence matrices which represent the attention from each symbol to each other symbol to enhance the understanding of the global class representation. It can be used as a classification model while providing a nice visualization and boost to the interpretability of the global classes <br>
 
 
 The project contains a Jupiter notebook which provides the model from the publication and also includes the weights for the published results (in the "saves"-folder for 500 and 15 epochs). The saved weights need in the saved folder without a nested structure to be loaded. 
@@ -25,7 +25,7 @@ Coherence Representations:
 - Global Trend Matrix based on median of relative average
 
 
-At the end of the notebook the coherence matrices can be analysed with the given visualisations.
+At the end of the notebook the coherence matrices can be analyzed with the given visualizations.
 
 ## Dependencies
 A list of all needed dependencies (other versions can work but are not guaranteed to do so):
@@ -58,3 +58,4 @@ http://www.timeseriesclassification.com/description.php?Dataset=SyntheticControl
 http://www.timeseriesclassification.com/description.php?Dataset=ECG5000 <br>
 http://www.timeseriesclassification.com/description.php?Dataset=Plane <br>
 http://www.timeseriesclassification.com/description.php?Dataset=PowerCons
+
