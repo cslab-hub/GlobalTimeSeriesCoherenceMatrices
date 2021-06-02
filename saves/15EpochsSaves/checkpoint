@@ -1,0 +1,2 @@
+model_checkpoint_path: "weights-ECG5000_TRAIN-size140-thresholdNone-inputSAX-fold5.tf"
+all_model_checkpoint_paths: "weights-ECG5000_TRAIN-size140-thresholdNone-inputSAX-fold5.tf"

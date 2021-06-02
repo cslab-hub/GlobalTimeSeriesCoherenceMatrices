@@ -1,0 +1,2 @@
+model_checkpoint_path: "weights-SyntheticControl_TRAIN-size60-thresholdNone-inputSAX-fold5.tf"
+all_model_checkpoint_paths: "weights-SyntheticControl_TRAIN-size60-thresholdNone-inputSAX-fold5.tf"
