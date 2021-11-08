@@ -7,8 +7,8 @@ It is about creating coherence matrices which represent the attention from each 
 
 The project contains two Jupiter notebooks which provide the model from the publication and also includes the weights for the published results (in the "saves"-folder for 500 and 15 epochs). The saved weights need in the saved folder without a nested structure to be loaded. 
 
-- GlobalTransformerInterpretation-ForReproducability.ipynb: Contains the model from the paper for reproducability.
-- GlobalTransformerInterpretation-WithFix.ipynb: Contains a fix. Results are not compatible with the publication.
+- GlobalTransformerInterpretation-ForReproducibility.ipynb: Contains the model from the paper for reproducibility.
+- GlobalTransformerInterpretation-WithFix.ipynb: Contains a fix; results are not compatible with the publication.
 
 The code was tested on four datasets (linked below and included in the repository) and trains with a 5 fold cross-validation. Each fold trains 2 models and 10 coherence representations:
 
