@@ -49,7 +49,8 @@ matplotlib==3.3.1<br>
 
 
 ## Cite and publications
-This code represents the used model for the following publication: TODO <br>
+This code represents the used model for the following publication: <br>
+https://ieeexplore.ieee.org/abstract/document/9564126 <br>
 
 If you use, build upon this work or if it helped in any other way, please cite the linked publication.
 
