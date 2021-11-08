@@ -5,7 +5,11 @@ Code for the Paper Constructing Global Coherence Representations:Identifying Int
 It is about creating coherence matrices which represent the attention from each symbol to each other symbol to enhance the understanding of the global class representation. It can be used as a classification model while providing a nice visualization and boost to the interpretability of the global classes <br>
 
 
-The project contains a Jupiter notebook which provides the model from the publication and also includes the weights for the published results (in the "saves"-folder for 500 and 15 epochs). The saved weights need in the saved folder without a nested structure to be loaded. 
+The project contains two Jupiter notebooks which provide the model from the publication and also includes the weights for the published results (in the "saves"-folder for 500 and 15 epochs). The saved weights need in the saved folder without a nested structure to be loaded. 
+
+GlobalTransformerInterpretation-ForReproducability.ipynb: Contains the model from the paper for reproducability.
+GlobalTransformerInterpretation-WithFix.ipynb: Contains a fix. Results are not compatible with the publication.
+
 The code was tested on four datasets (linked below and included in the repository) and trains with a 5 fold cross-validation. Each fold trains 2 models and 10 coherence representations:
 
 Models:
